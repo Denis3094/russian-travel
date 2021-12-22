@@ -1,0 +1,23 @@
+.places__paragraph {
+	margin: 0;
+	font-size: 18px;
+	line-height: 163%;
+	color: #FFF;
+	margin-top: 26px;
+}
+
+.places__paragraph:first-of-type {
+	margin-top: 0;
+}
+
+@media screen and (max-width: 1279px) {
+	.places__paragraph {
+		margin-top: 27px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.places__paragraph {
+		margin-top: 25px;
+	}
+}
