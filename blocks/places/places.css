@@ -2,6 +2,9 @@
 	max-width: 984px;
 	margin: 0 auto;
 	padding-top: 92px;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-gap: 80px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -12,14 +15,14 @@
 
 @media screen and (max-width: 1023px) {
 	.places {
-		max-width: 720px;
-		padding-top: 88px;
+		padding: 88px 24px 0 24px;
+		grid-gap: 73px;
 	}
 }
 
 @media screen and (max-width: 767px) {
 	.places {
-		max-width: 320px;
-		padding-top: 64px;
+		padding: 64px 0 0 0;
+		grid-gap: 50px;
 	}
 }
